@@ -1,0 +1,22 @@
+{
+  "name": "extract-imap-mail-contacts",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "tsx --env-file=.env src/index.ts",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/imapflow": "^1.0.19",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.171"
+  }
+}
